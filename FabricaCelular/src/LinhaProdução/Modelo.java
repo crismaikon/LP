@@ -2,24 +2,33 @@ package LinhaProdução;
 
 public class Modelo {
 	
-	private String nome;
+	private String modeloNome;
 	private double preço;
 	private String dataFabricação;
 	private int quantProduzida;
-	private int serial;
+	private String serial;
 	
+	public Modelo ( String modeloNome, double preço, String dataFabricação, int quantProduzida, String serial){
+		
+		this.modeloNome = modeloNome;
+		this.preço = preço;
+		this.dataFabricação = dataFabricação;
+		this.quantProduzida = quantProduzida;
+		this.serial = serial;
+		
+	}
 	
-	public int getSerial() {
+	public String getSerial() {
 		return serial;
 	}
-	public void setSerial(int serial) {
+	public void setSerial(String serial) {
 		this.serial = serial;
 	}
-	public String getNome() {
-		return nome;
+	public String getmodeloNome() {
+		return modeloNome;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setmodeloNome(String modeloNome) {
+		this.modeloNome = modeloNome;
 	}
 	public double getPreço() {
 		return preço;

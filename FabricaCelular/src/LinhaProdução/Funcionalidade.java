@@ -1,16 +1,21 @@
 package LinhaProdução;
 
 public class Funcionalidade {
-	
+
 	private boolean ligação;
 	private boolean mensagem;
 	private boolean despertador;
 
-	public Funcionalidade(boolean ligação, boolean mensagem, boolean despertador) {
-		super();
-		this.ligação = ligação;
-		this.mensagem = mensagem;
-		this.despertador = despertador;
+	public void FazerLigação(String numero) {
+
+	}
+	
+	public void MandarMensagem(String mensagem) {
+
+	}
+
+	public void Despertar() {
+
 	}
 
 	public boolean isLigação() {
@@ -36,11 +41,5 @@ public class Funcionalidade {
 	public void setDespertador(boolean despertador) {
 		this.despertador = despertador;
 	}
-	
-	
-	
-
-	
-	
 
 }

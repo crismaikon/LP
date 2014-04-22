@@ -1,4 +1,4 @@
-package Funcionario;
+package Fabrica;
 
 public class DadosPessoais {
 
